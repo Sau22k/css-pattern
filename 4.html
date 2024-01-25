@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          background: #6592CF;
+          display: grid;
+          place-items: center;
+        }
+        div {
+          height: 60px;
+          border-radius: 30px;
+          position: absolute;
+          top: 40%;
+        }
+        #horizontal, #vertical {
+          width: 250px;
+          background: #060F55;
+        }
+        #vertical {
+          transform: rotate(90deg);
+        }
+        #circle {
+          width: 60px;
+          background: #6592CF;
+          box-shadow: -60px -60px #6592CF, 60px -60px #6592CF, -60px 60px #6592CF, 60px 60px #6592CF, 0px 0px 0px 35px #060F55;
+        }
+      </style>
+</head>
+<body>
+    <div id="vertical"></div>
+    <div id="horizontal"></div>
+    <div id="circle"></div>
+</body>
+</html>
